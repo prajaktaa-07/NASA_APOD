@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #0d0f27, #000);
+    color: white;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.05);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar .nav-links li:hover {
+    color: #4f6cff;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.control-box {
+    margin-bottom: 25px;
+}
+
+.date-input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px 18px;
+    font-size: 16px;
+    background: #4f6cff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #3d54d1;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    margin-top: 25px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-top: 15px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.card p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin-top: 10px;
+}

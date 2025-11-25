@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA APOD Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <h2 class="logo">APOD Explorer</h2>
+        <ul class="nav-links">
+            <li onclick="showHome()">Home</li>
+            <li onclick="showGallery()">Gallery</li>
+            <li onclick="showAbout()">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="title">NASA Astronomy Picture of the Day</h1>
+
+        <div class="control-box">
+            <input type="date" id="pickDate" class="date-input">
+            <button class="btn" onclick="loadByDate()">View APOD</button>
+        </div>
+
+        <div id="outputArea" class="card"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
